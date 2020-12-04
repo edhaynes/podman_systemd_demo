@@ -19,7 +19,7 @@ echo '#Now Kill redis-server container and watch systemd relaunch it'
 echo pkill redis-server
 pkill redis-server
 
-sleep 2
+sleep 5
 
 echo '#Pid of new redis-server container'
 echo pgrep redis-server
